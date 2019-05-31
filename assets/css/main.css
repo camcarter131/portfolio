@@ -125,14 +125,14 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		/* font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		
 		font-weight: 300; */
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 
 		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-		font-size: 2em;
-		font-weight: 700;
+		font-size: 17pt;
+		font-weight: 500;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2154,6 +2154,11 @@ input, select, textarea {
 	}
 
 /* Image */
+	img.project-icon {
+
+		height: 65%;
+		
+	}
 
 	.img-responsive {
 		display: block;
@@ -2754,7 +2759,11 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 60%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
 		}
 
 			.tiles article .image {
@@ -2794,7 +2803,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.5;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3955,7 +3964,12 @@ input, select, textarea {
 
 #portrait {
 	border-radius: 50%;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 
+}
+
+div#portfolio {
+	display: flex;
+	flex-direction: column;
 }
