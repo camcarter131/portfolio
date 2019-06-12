@@ -3975,3 +3975,12 @@ div#portfolio {
 	flex-direction: column;
 }
 
+div.icons {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 150px;
+}
+
+
+
+
